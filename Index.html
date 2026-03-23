@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: black;
+      font-size: 24px;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin-top: 20px;
+      border: none;
+      background: blue;
+      color: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>My Website</header>
+
+<h2>Hello 👋</h2>
+<p>This is a real working website</p>
+
+<button onclick="clickMe()">Click Me</button>
+
+<script>
+  function clickMe() {
+    document.body.style.background = "purple";
+    alert("Website is working!");
+  }
+</script>
+
+</body>
+  </html>
